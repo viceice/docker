@@ -11,7 +11,7 @@ async function run(): Promise<void> {
   headers.accept = DockerContentType.ManifestV1;
   const url = `${registry}/v2/${repository}/manifests/${tag}`;
 
-  const resp = await got<Record<string, any>>(url, {
+  const resp = await got<Record<string, unknown>>(url, {
     headers,
     responseType: 'json',
   });
