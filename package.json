@@ -1,0 +1,51 @@
+{
+  "name": "docker",
+  "version": "0.0.0-PLACEHOLDER",
+  "private": true,
+  "license": "MIT",
+  "repository": "https://github.com/viceice/docker.git",
+  "author": "Michael Kriese <michael.kriese@visualon.de>",
+  "main": "dist/index.js",
+  "engines": {
+    "node": ">=12.0.0",
+    "yarn": ">=1.22.0"
+  },
+  "scripts": {
+    "compile": "tsc",
+    "eslint": "eslint .",
+    "eslint:fix": "yarn eslint --fix",
+    "lint": "run-s eslint prettier",
+    "prettier": "prettier \"{**/*,*}.*\" --list-different",
+    "prettier:fix": "prettier \"{**/*,*}.*\" --write",
+    "start": "ts-node -T src"
+  },
+  "dependencies": {
+    "@sindresorhus/is": "4.0.0",
+    "chalk": "4.1.0",
+    "got": "11.8.0",
+    "strip-ansi": "6.0.0",
+    "www-authenticate": "0.6.2"
+  },
+  "devDependencies": {
+    "@jest/globals": "26.6.0",
+    "@types/jest": "26.0.15",
+    "@types/node": "12.19.0",
+    "@typescript-eslint/eslint-plugin": "4.5.0",
+    "@typescript-eslint/parser": "4.5.0",
+    "eslint": "7.11.0",
+    "eslint-config-prettier": "6.14.0",
+    "eslint-plugin-import": "2.22.1",
+    "eslint-plugin-jest": "24.1.0",
+    "eslint-plugin-promise": "4.2.1",
+    "husky": "4.3.0",
+    "jest": "26.6.0",
+    "nock": "13.0.4",
+    "npm-run-all": "4.1.5",
+    "prettier": "2.1.2",
+    "prettier-plugin-package": "1.2.0",
+    "pretty-quick": "3.1.0",
+    "ts-jest": "26.4.1",
+    "ts-node": "9.0.0",
+    "typescript": "4.0.3"
+  }
+}
