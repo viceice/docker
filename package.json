@@ -22,7 +22,7 @@
   "dependencies": {
     "@sindresorhus/is": "4.0.0",
     "chalk": "4.1.0",
-    "got": "11.8.0",
+    "got": "11.8.1",
     "strip-ansi": "6.0.0",
     "www-authenticate": "0.6.2"
   },
