@@ -20,7 +20,7 @@
     "start": "ts-node -T src"
   },
   "dependencies": {
-    "@sindresorhus/is": "4.0.0",
+    "@sindresorhus/is": "4.0.1",
     "chalk": "4.1.1",
     "got": "11.8.2",
     "strip-ansi": "6.0.0",
