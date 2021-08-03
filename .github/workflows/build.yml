@@ -57,7 +57,7 @@ jobs:
 
     steps:
       - name: Set up Node.js ${{ env.NODE_VERSION }}
-        uses: actions/setup-node@56899e050abffc08c2b3b61f3ec6a79a9dc3223d # renovate: tag=v1.4.4
+        uses: actions/setup-node@eb416799cf1940b81fd8e0dd34624aaf47e572f3 # renovate: tag=v1.4.5
         with:
           node-version: ${{ env.NODE_VERSION }}
 
