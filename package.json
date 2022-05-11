@@ -29,7 +29,7 @@
   "devDependencies": {
     "@jest/globals": "27.5.1",
     "@types/jest": "27.5.0",
-    "@types/node": "12.20.50",
+    "@types/node": "12.20.51",
     "@typescript-eslint/eslint-plugin": "4.33.0",
     "@typescript-eslint/parser": "4.33.0",
     "eslint": "7.32.0",
