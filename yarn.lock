@@ -4333,10 +4333,10 @@ ws@^7.4.6:
   resolved "https://registry.yarnpkg.com/ws/-/ws-7.5.9.tgz#54fa7db29f4c7cec68b1ddd3a89de099942bb591"
   integrity sha512-F+P9Jil7UiSKSkppIiD94dN07AwvFixvLIj1Og1Rl9GGMuNipJnV9JzjD6XuqmAeiswGvUmNLjr5cFuXwNS77Q==
 
-www-authenticate@0.6.2:
-  version "0.6.2"
-  resolved "https://registry.yarnpkg.com/www-authenticate/-/www-authenticate-0.6.2.tgz#b7a7d487bdc5a8b423a4d8fd5f9c661adde50ebf"
-  integrity sha512-jqeVsO3HKRXuwsE9UKk+UBapP13tzDKsRkFckBrXjSJIubAi1yugBbcNTjeNe5hZuG1QW8zb6jzbDa9XGOnFTw==
+www-authenticate@0.6.3:
+  version "0.6.3"
+  resolved "https://registry.yarnpkg.com/www-authenticate/-/www-authenticate-0.6.3.tgz#15af2d8b230259c6c89e583078a58ed5f4ea34d5"
+  integrity sha512-8VkdLBJiBh5aXlJvcVaPykwSI//OA+Sxw7g84vIyCqoqlXtLupGNhyXxbgVuZ7g5ZS+lCJ4bTtcw/gJciqEuAg==
 
 xml-name-validator@^3.0.0:
   version "3.0.0"
